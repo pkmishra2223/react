@@ -1,0 +1,79 @@
+×
+TypeError: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(...) is not a function
+App
+E:/react2020/todo/src/App.js:23
+  20 | return (
+  21 |      <div className="design">
+  22 |      <p>{message}</p>
+> 23 |      <button onClick={update}>press here</button></div>
+  24 |  (
+  25 |  <Counter /> 
+  26 | )
+View compiled
+▶ 16 stack frames were collapsed.
+Module../src/index.js
+E:/react2020/todo/src/index.js:7
+   4 | import App from './App';
+   5 | 
+   6 | 
+>  7 | ReactDOM.render(
+   8 |   <React.StrictMode>
+   9 |     <App />
+  10 |   </React.StrictMode>,
+View compiled
+__webpack_require__
+E:/react2020/todo/webpack/bootstrap:784
+  781 | };
+  782 | 
+  783 | // Execute the module function
+> 784 | modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  785 | 
+  786 | // Flag the module as loaded
+  787 | module.l = true;
+View compiled
+fn
+E:/react2020/todo/webpack/bootstrap:150
+  147 | 		);
+  148 | 		hotCurrentParents = [];
+  149 | 	}
+> 150 | 	return __webpack_require__(request);
+      | ^  151 | };
+  152 | var ObjectFactory = function ObjectFactory(name) {
+  153 | 	return {
+View compiled
+1
+http://localhost:3000/static/js/main.chunk.js:320:18
+__webpack_require__
+E:/react2020/todo/webpack/bootstrap:784
+  781 | };
+  782 | 
+  783 | // Execute the module function
+> 784 | modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  785 | 
+  786 | // Flag the module as loaded
+  787 | module.l = true;
+View compiled
+checkDeferredModules
+E:/react2020/todo/webpack/bootstrap:45
+  42 | 	}
+  43 | 	if(fulfilled) {
+  44 | 		deferredModules.splice(i--, 1);
+> 45 | 		result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
+     | ^  46 | 	}
+  47 | }
+  48 | 
+View compiled
+Array.webpackJsonpCallback [as push]
+E:/react2020/todo/webpack/bootstrap:32
+  29 | 	deferredModules.push.apply(deferredModules, executeModules || []);
+  30 | 
+  31 | 	// run deferred modules when all chunks ready
+> 32 | 	return checkDeferredModules();
+     | ^  33 | };
+  34 | function checkDeferredModules() {
+  35 | 	var result;
+View compiled
+(anonymous function)
+http://localhost:3000/static/js/main.chunk.js:1:61
+This screen is visible only in development. It will not appear if the app crashes in production.
+Open your browser’s developer console to further inspect this error.  Click the 'X' or hit ESC to dismiss this message.
